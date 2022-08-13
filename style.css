@@ -1,0 +1,54 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+#body{
+ max-height: 100vh;
+ font-family: 'Poppins', sans-serif;
+}
+
+#container{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+#heading{
+    font-size: 150px;
+    opacity: 0.4;
+    color: rgb(179, 131, 226);
+}
+
+#explanation{
+   color:lightgrey;
+}
+
+#task-container{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px lightgray;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#input{
+    width:350px;
+    height: 50px;
+    font-size: 18px;
+    padding: 0px;
+    border:0px;
+}
+
+#task-container div{
+  height:50px;
+  width:100%;
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+}
